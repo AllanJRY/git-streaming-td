@@ -8,7 +8,7 @@
           <hr class="my-4">
           <span class="badge p-2" :class="[movie.metadata.type]">{{movie.metadata.typeLabel}}</span> 
           <hr class="my-4">
-          <p class="lead text-justify p-3">{{ movie.description }}</p>
+          <p class="lead text-justify">{{ movie.description }}</p>
           <hr class="my-4">
           <p class="lead">
             <a class="btn btn-primary btn-lg" href="#" role="button">REGARDER EN STREAMING</a>
@@ -50,6 +50,33 @@ export default {
           metadata: {
             type: "badge-danger",
             typeLabel: "Cute"
+          }
+        },
+        {
+          imgUrl: "https://www.weculte.com/wp-content/uploads/2020/05/russel-crowe-gladiator-696x463.jpg",
+          title: "Gladiator",
+          description: "Le général romain Maximus est le plus fidèle soutien de l'empereur Marc Aurèle, qu'il a conduit de victoire en victoire. Jaloux du prestige de Maximus, et plus encore de l'amour que lui voue l'empereur, le fils de Marc Aurèle, Commode, s'arroge brutalement le pouvoir, puis ordonne l'arrestation du général et son exécution. Maximus échappe à ses assassins, mais ne peut empêcher le massacre de sa famille. Capturé par un marchand d'esclaves, il devient gladiateur et prépare sa vengeance.",
+          metadata: {
+            type: "badge-danger",
+            typeLabel: "Sad"
+          }
+        },
+        {
+          imgUrl: "https://www.ecranlarge.com/uploads/image/001/087/joker-photo-1087850.jpg",
+          title: "Joker",
+          description: "Dans les années 1980, à Gotham City, Arthur Fleck, un comédien de stand-up raté est agressé alors qu'il ère dans les rues de la ville déguisé en clown. Méprisé de tous et bafoué, il bascule peu à peu dans la folie pour devenir le Joker, un dangereux tueur psychotique.",
+          metadata: {
+            type: "badge-success",
+            typeLabel: "Wesh"
+          }
+        },
+        {
+          imgUrl: "https://aws1.vdkimg.com/film/1/3/3/5/1335955_backdrop_scale_1280xauto.jpg",
+          title: "Cinquante nuances de black",
+          description: "Dans cette parodie, le comique, Marlon Wayans, met la fessée à Cinquante nuances de Grey. Wayans incarne le séduisant Christian Black qui va tomber sous le charme de l'innocence Hannah jusqu'à lui proposer un pacte d'amour placé sous le signe du S.M. S.M. comme Super Marrant.",
+          metadata: {
+            type: "badge-primary",
+            typeLabel: "Oui"
           }
         },
       ]
